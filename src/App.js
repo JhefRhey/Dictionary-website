@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+
 function App() {
   return (
     <div className="App">

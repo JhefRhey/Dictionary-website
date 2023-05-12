@@ -1,5 +1,5 @@
 import React from "react";
-import MultiplePizzas from "../assets/multiplePizzas.jpeg";
+import MultiplePizzas from "../assets/aboutus-9.png";
 import "../styles/About.css";
 function About() {
   return (
@@ -9,7 +9,7 @@ function About() {
         style={{ backgroundImage: `url(${MultiplePizzas})` }}
       ></div>
       <div className="aboutBottom">
-        <h1> ABOUT US</h1>
+        <h1> sexx tayo</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
           mollitia, molestiae quas vel sint commodi repudiandae consequuntur
