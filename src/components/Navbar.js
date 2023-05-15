@@ -13,10 +13,36 @@ function Navbar() {
     setOpenLinks(!openLinks);
   };
   return (
-   <div className="navbar">
-       <div className="leftSide" id={openLinks ? "open" : "close"}>
-       <img src={Logo} alt="loading" />
-       <div className="hiddenLinks">
+//    <div className="navbar">
+//        <div className="leftSide" id={openLinks ? "open" : "close"}>
+//        <img src={Logo} alt="loading" />
+//        <div className="hiddenLinks">
+//           <Link to="/"> Home </Link>
+//           <Link to="/menu"> Menu </Link>
+//           <Link to="/about"> About </Link>
+//           <Link to="/contact"> Contact </Link>
+//         </div>
+
+//         <div className="rightSide">
+//           <Link to="/"> Home </Link>
+//           <Link to="/menu"> Menu </Link>
+//           <Link to="/about"> About </Link>
+//           <Link to="/contact"> Contact </Link>
+//           <button onClick={toggleNavbar}>
+//           <ReorderIcon />
+//         </button>
+//       </div>
+//     </div>
+//   );
+// }
+
+   
+   return (
+  <div className="navbar">
+    <div className="leftSide" id={openLinks ? "open" : "close"}>
+      <img src={process.env.PUBLIC_URL + '/logo.png'} alt="Logo" />
+    </div>
+    <div className="hiddenLinks">
           <Link to="/"> Home </Link>
           <Link to="/menu"> Menu </Link>
           <Link to="/about"> About </Link>
@@ -33,7 +59,6 @@ function Navbar() {
         </button>
       </div>
     </div>
-  );
-}
-
+   
+);
 export default Navbar;
