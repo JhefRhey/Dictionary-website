@@ -24,11 +24,7 @@ function Navbar() {
         //</div>
       //</div> 
 <div className="navbar">
-      <div className="leftSide">
-         <div className="leftSide" id={openLinks ? "open" : "close"}>
-         <img src={logo} alt="Logo" />
-       </div>
-
+    
        <div className="hiddenLinks">
          <Link to="/"> Home </Link>
           <Link to="/menu"> Menu </Link>
