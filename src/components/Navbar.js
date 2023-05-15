@@ -40,7 +40,7 @@ function Navbar() {
    return (
   <div className="navbar">
     <div className="leftSide" id={openLinks ? "open" : "close"}>
-      <img src={process.env.PUBLIC_URL + '/logo.png'} alt="Logo" />
+      <img src={process.env.PUBLIC_URL + '/assets/logoo.png'} alt="Logo" />
     </div>
     <div className="hiddenLinks">
           <Link to="/"> Home </Link>
