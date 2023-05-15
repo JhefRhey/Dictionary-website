@@ -38,9 +38,6 @@ function Navbar() {
    
    return (
   <div className="navbar">
-    <div className="leftSide" id={openLinks ? "open" : "close"}>
-     <p>logo</p>
-    </div>
     <div className="hiddenLinks">
           <Link to="/"> Home </Link>
           <Link to="/menu"> Menu </Link>
